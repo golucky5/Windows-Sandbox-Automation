@@ -1,0 +1,11 @@
+<Configuration>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>C:\Sandbox\Scripts</HostFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>powershell -ExecutionPolicy Unrestricted -File C:\Users\WDAGUtilityAccount\Desktop\Scripts\install.ps1</Command>
+  </LogonCommand>
+</Configuration>
